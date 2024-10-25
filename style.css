@@ -33,12 +33,12 @@ h2{
 h3{
     font-size: 1.5em;
 }
-.produtos-lista {
+.produto-lista {
     margin-top: 24px;
     display: flex;
-    flex-wrap: center;
+    flex-wrap: wrap;
     gap: 25px;
-    justify-content: center ;
+    justify-content: center;
 }
 
 .produto-lista .produto { 
@@ -52,7 +52,7 @@ h3{
     padding: 20px;
     gap: 15px;
     background-color: var(--cor-fundo-cards);
-    box-shadow: 0px 0px 12px 4px, rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.5);
     transition: 0.5;
 }
 
@@ -63,12 +63,13 @@ h3{
 
 }
 
-.produtos-lista .produtos:hover {
+.produto-lista .produtos:hover {
     background-color: rgb(97, 91, 64);
     border-radius: 15px;
     height: 180px;
 } 
 
-.produtos-lista .produtos span{
+.produto-lista .produtos span{
     text-align: center;
+
 }
